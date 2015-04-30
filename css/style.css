@@ -1,0 +1,51 @@
+.container {
+    width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-bg-danger {
+    color: #c7254e !important;
+}
+
+.align-container {
+    text-align: center;
+}
+
+.align-center {
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.align-right {
+    float: right;
+}
+
+.align-left {
+    float: left;
+}
+
+.table th {
+    background-color: #f5f5f5;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+/* Ready */
+.ready {
+    -webkit-animation: ready-animation 0.5s; /* Chrome, Safari, Opera */
+    animation: ready-animation 0.5s;
+}
+
+@-webkit-keyframes ready-animation {
+    0%   { background: white; }
+    50%  { background: #dff0d8 }
+    100% { background: white; }
+}
+
+@keyframes ready-animation {
+    0%   { background: white; }
+    50%  { background: #dff0d8; }
+    100% { background: white; }
+}
+/* End Ready */

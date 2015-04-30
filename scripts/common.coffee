@@ -1,0 +1,1 @@
+$("[data-func='radio']").click -> window.open $(this).attr("data-url"), $(this).attr("data-name"), "height=650, width=360"
